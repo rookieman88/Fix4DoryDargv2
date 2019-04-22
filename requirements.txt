@@ -1,0 +1,5 @@
+import discord==0.16.12
+import asyncio==3.4.3
+import datetime==4.3
+import random==
+import time==
