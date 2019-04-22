@@ -1,5 +1,5 @@
-discord.py==0.16.12
-asyncio==3.4.3
-datetime==4.3
-random==
-time==
+discord.py
+asyncio
+datetime
+random
+time
