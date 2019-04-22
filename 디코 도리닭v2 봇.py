@@ -3,6 +3,7 @@ import asyncio
 import datetime
 import random
 import time
+import os
 
 client = discord.Client()
 now = datetime.datetime.now()
@@ -265,5 +266,5 @@ async def on_member_remove(member):
     fmt = '{0.mention} 님이 서버에서 탈주하셨셨습니닭.'
     await client.send_message(channel, fmt.format(member, member.server))
 
-
-client.run("NTU1MTYxMDg4Njg2MjkzMDEz.D24L3Q.GRH0-4OBXNHywspNgTyP5BsW6Nc")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
