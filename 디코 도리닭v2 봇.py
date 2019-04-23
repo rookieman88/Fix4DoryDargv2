@@ -266,5 +266,5 @@ async def on_member_remove(member):
     fmt = '{0.mention} 님이 서버에서 탈주하셨셨습니닭.'
     await client.send_message(channel, fmt.format(member, member.server))
 
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.getenv("BOT_TOKEN")
 client.run(access_token)
