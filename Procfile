@@ -1,1 +1,1 @@
-worker: python 디코 도리닭v2 봇.py
+worker: python 디코도리닭v2봇.py
